@@ -1,4 +1,4 @@
-# Food QnA Chatbot Demo
+# Food QnA Chatbot : Help Answer Food Related Questions from Your Own Cookbook
 ## Set Up Local Virtual Environment
 * Step 1: Install Miniconda on MacOS, see instruction [here](https://docs.conda.io/en/latest/miniconda.html). 
 * Step 2: Create a default conda env with Python 3.9: 
@@ -50,6 +50,7 @@ In your terminal, run the App by
 streamlit run food_qna_app.py
 ```
 You can start asking questions related to food preparation and cooking, and also some follow up questions. See screenshot below. 
+
 | Original Content                       |Chat History - first turn               |Chat History - follow up                |
-|----------------------------------------|----------------------------------------|----------------------------------------|
+|:----------------------------------------|:----------------------------------------|:----------------------------------------|
 | ![Original Content](picture/original_content.png)  | ![Chat History](picture/chat_history_1.png)  | ![Chat History](picture/chat_history_2.png)  |
